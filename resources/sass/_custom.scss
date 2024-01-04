@@ -1,0 +1,27 @@
+// Write your custom css/scss here
+
+body {
+    overflow: scroll;
+    -ms-overflow-style: none; /* Para o IE e o Edge */
+    scrollbar-width: none; /* Para o Firefox */
+  }
+
+  body::-webkit-scrollbar {
+    display: none; /* Para o Chrome e o Safari */
+  }
+
+  .card{
+    border-radius: 20px;
+  }
+
+.btn-primary{
+    color: white!important;
+}
+
+.float-right{
+  float: right;
+}
+
+.tox-statusbar__branding{
+  display: none!important;
+}
